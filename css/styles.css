@@ -96,6 +96,12 @@ body {
 .contact-nav .item:not(:last-child) {
   margin-right: 50px;
 }
+.icon-phone {
+  display: inline-flex;
+  outline: 1px solid red;
+  width: 10px;
+  height: 16px;
+}
 .site-nav .link,
 .contact-nav .link {
   display: block;
