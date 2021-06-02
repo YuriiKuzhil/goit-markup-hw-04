@@ -97,7 +97,6 @@ body {
   margin-right: 50px;
 }
 .icon-phone {
-  display: inline-flex;
   outline: 1px solid red;
   width: 10px;
   height: 16px;
@@ -201,6 +200,12 @@ body {
 }
 .specifics-list .description-text {
   margin: 0;
+}
+.specifics-list-container-icon {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  background: var(--secondary-background-color);
+  border-radius: 4px;
 }
 
 /* Section our works */
