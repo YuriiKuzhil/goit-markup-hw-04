@@ -138,7 +138,7 @@ body {
 }
 /* SECTION HERO */
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-right: auto;
@@ -288,6 +288,10 @@ body {
 .team-list-icons {
   display: flex;
 }
+.team-list-icons-items {
+  width: 44px;
+  height: 44px;
+}
 .team-list-icons-items:not(:last-child) {
   margin-right: 10px;
 }
@@ -295,8 +299,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   fill: var(--icons-color);
 }
@@ -368,6 +372,10 @@ body {
 .footer-list-icons {
   display: flex;
 }
+.footer-list-icons-items {
+  width: 44px;
+  height: 44px;
+}
 .footer-list-icons-items:not(:last-child) {
   margin-right: 10px;
 }
@@ -375,8 +383,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   fill: var(--primary-white-color);
   background-color: var(--footer-icon-background);
